@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/npb7nvbir49vg3v5?svg=true)](https://ci.appveyor.com/project/SurfDRED/patterns)
