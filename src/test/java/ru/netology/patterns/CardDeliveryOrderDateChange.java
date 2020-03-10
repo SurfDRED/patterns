@@ -13,7 +13,7 @@ public class CardDeliveryOrderDateChange {
 
     @Test
     void shouldSubmitRequest() {
-        //Тестируемая функциональность: заполнить форму
+        //Тестируемая функциональность заполния формы генератором
         open("http://localhost:9999");
         $("[data-test-id='city'] input").setValue(GeneratorFaker.getCity());
         $(".menu").waitUntil(exist,5000).click();
